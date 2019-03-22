@@ -1,0 +1,61 @@
+[
+    {
+            "id":"1",
+            "product_name":"Simple product 1",
+            "price":25,
+            "buy_count":5,
+            "category":"Tools Appliances",
+            "mostly_color":"white",
+            "thumbs":"/1.jpg",
+            "created_at":"05/02/2019"
+    },
+    {
+            "id":"2",
+            "product_name":"Simple product 2",
+            "price":19.6,
+            "buy_count":2,
+            "category":"Tools Appliances",
+            "mostly_color":"red",
+            "thumbs":"/2.jpg",
+            "created_at":"26/02/2019"
+    },
+    {
+            "id":"3",
+            "product_name":"Simple product 3",
+            "price":44,
+            "buy_count":7,
+            "category":"Camera",
+            "mostly_color":"black",
+            "thumbs":"/3.jpg",
+            "created_at":"11/02/2019"
+    },
+    {
+            "id":"4",
+            "product_name":"Simple product 4",
+            "price":19,
+            "buy_count":2,
+            "category":"Featured",
+            "mostly_color":"red",
+            "thumbs":"/4.jpg",
+            "created_at":"08/02/2019"
+    },{
+            "id":"5",
+            "product_name":"Simple product 5",
+            "price":52,
+            "buy_count":6,
+            "category":"Camera",
+            "mostly_color":"white",
+            "thumbs":"/5.jpg",
+            "created_at":"09/02/2019"
+    },
+    {
+            "id":"6",
+            "product_name":"Simple product 6",
+            "price":110,
+            "buy_count":5,
+            "category":"Tools Appliances",
+            "mostly_color":"white",
+            "thumbs":"/6.jpg",
+            "created_at":"10/02/2019"
+    }
+]
