@@ -31,10 +31,10 @@ import {getByTag} from '../actions/index';
                     <ul className="categoy-list" onClick={this.check_category.bind(this)}>
                         <li tag="black"><i className="fa fa-check"></i>Black</li>
                         <li tag="blue"><i className="fa fa-check"></i>Blue</li>
-                        <li tag="gray"><i className="fa fa-check"></i>Gray</li>
+                        <li tag="white"><i className="fa fa-check"></i>white</li>
                         <li tag="red"><i className="fa fa-check"></i>Red</li>
-                        <li tag="gold"><i className="fa fa-check"></i>Gold</li>
-                        <li tag="fiber"><i className="fa fa-check"></i>Fiber</li>
+                        <li tag="gold"><i className="fa fa-check"></i>Green</li>
+                        <li tag="green"><i className="fa fa-check"></i>Gold</li>
                     </ul>
         </div>
      

@@ -48,7 +48,7 @@ export default class login extends Component {
     if(wait_point){
         wait_point.append(' .');
      }
-       i++; 
+    
            
 
     },800);

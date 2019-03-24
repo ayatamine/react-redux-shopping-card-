@@ -4,7 +4,8 @@ import {BEST_SELLING, TITLE_ASCENDING,TITLE_DESCENDING,
     PRICE_ASCENDING,PRICE_DESCENDING,CREATED_ASCENDING,
     CREATED_DESCENDING,
     GET_BY_CATEGORY,
-    GET_BY_TAG} from '../actions/index';
+    GET_BY_TAG,
+    ADD_PRODUCT} from '../actions/index';
 
 
 
@@ -31,7 +32,9 @@ function products(state=json_data, action){
         case GET_BY_TAG :
               products = json_data.filter(item => item.mostly_color === action.tag);
              return products;   
-        
+        case ADD_PRODUCT:
+              products =[...json_data,action.product];
+              return products
          default:
              return state;
      }

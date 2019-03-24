@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import '../styles/index.css';
 import '../styles/font-awesome.min.css';
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'react-bootstrap';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 
 import Products from './Products';
 import Filter from './Filter';

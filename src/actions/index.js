@@ -19,6 +19,9 @@ export const GET_SINGLE_PRODUCT = "GET_SINGLE_PRODUCT";
 // get the product commanded by the user 
 export const GET_COMMANDED_PRODUCTS ='GET_COMMANDED_PRODUCTS';
 export const REMOVE_COMMANDED_PRODUCTS ='REMOVE_COMMANDED_PRODUCTS';
+// add a new products
+export const ADD_PRODUCT ='ADD_PRODUCT';
+
 
 export function setCurrency(current_currency,signe){
     const action ={
@@ -71,4 +74,11 @@ export function removeCommandedProduct(ProductId){
         id:ProductId
     }
     return action;
+}
+export function addProduct(NewProduct){
+   const action  ={
+       type :ADD_PRODUCT,
+       product :NewProduct
+   }
+   return action ;
 }

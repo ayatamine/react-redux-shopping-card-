@@ -466,3 +466,15 @@
         margin-top: -19px;
         padding: 15px;
     }
+
+    /* dashboard stylesheet */
+    #add-new-product-form{padding: 20px;
+        border: 1px solid #aba7a7;
+        border-radius: 4px;
+        max-width: 305px;
+        display: grid;
+        justify-content: center;
+    }
+    #product-list-panel strong{
+        margin-right: 15px
+    }
